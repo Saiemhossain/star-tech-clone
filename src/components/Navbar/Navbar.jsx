@@ -74,7 +74,10 @@ const Navbar = () => {
               <Link to="/product">
                 <li onClick={() => setMenu(false)}>Product</li>
               </Link>
-              <li onClick={() => setMenu(false)}>Contact</li>
+               <Link to={'/contact'}>
+                {' '}
+                <li onClick={() => setMenu(false)}>Contact</li>{' '}
+              </Link>
             </ul>
           </nav>
         </div>
